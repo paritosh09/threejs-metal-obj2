@@ -15,7 +15,7 @@ import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPa
 // AI Storyteller Integration Class
 class AIStorytellerIntegration {
     constructor() {
-        this.apiKey = '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';
+        this.apiKey = 'your api key';
         this.apiUrl = 'https://openrouter.ai/api/v1/chat/completions';
         this.currentStoryState = {};
         this.storyHistory = [];
